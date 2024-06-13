@@ -5,7 +5,7 @@ import { IconoirProvider } from "iconoir-react";
 export default function Home() {
   return (
     <IconoirProvider>
-      <Sidebar iconColor={'#000'}/>
+      <Sidebar />
     </IconoirProvider>
   );
 }

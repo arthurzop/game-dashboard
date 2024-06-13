@@ -8,19 +8,19 @@ export default function Sidebar({ iconColor }) {
                 color: iconColor || '#fff',
             }}>
             <div className={style.container}>
-                <I.SelectFace3d className={style.logo}/>
+                <I.ReportColumns fill='#fff' className={style.logo} />
                 <div className={style.iconContainer}>
-                    <I.Home/>
-                    <I.Gamepad/>
-                    <I.Gift/>
-                    <I.Tv/>
-                    <I.HalfCookie/>
-                    <I.Bag/>
-                    <I.ChatBubble/>
+                    <I.Home />
+                    <I.Gamepad />
+                    <I.Gift />
+                    <I.Tv />
+                    <I.HalfCookie />
+                    <I.Bag />
+                    <I.ChatBubble />
                 </div>
                 <div className={style.addContainer}>
                     <button className={style.addButton}>
-                        <I.Plus/>
+                        <I.Plus />
                     </button>
                 </div>
             </div>
